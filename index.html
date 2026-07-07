@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelJets Private Jet Charter | Aviación Ejecutiva Premium</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <img src="img/logo.png" alt="DelJets Logo" class="nav-logo-img">
+            <div class="nav-logo-text">
+                <span class="title">DelJets</span>
+                <span class="subtitle">Private Jet Charter</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#flota">Flota</a></li>
+            <li><a href="#faq">Preguntas</a></li>
+            <li><a href="#contacto" class="btn-nav-cta">Cotizar Ahora</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-animated-content">
+            <div class="hero-badge">Servicio Charter Global</div>
+            <h1>Vuelos Privados Diseñados a la Medida de su Agenda</h1>
+            <p>Discreción, seguridad impecable y eficiencia absoluta con DelJets. Conectamos destinos nacionales e internacionales sin las demoras de la aviación comercial.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn-main">Contactar Asesor</a>
+                <a href="#flota" class="btn-sub">Ver Flota</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="section-header">
+            <span class="section-tag">Soluciones</span>
+            <h2 class="section-title">Nuestros Servicios Ejecutivos</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3-1 3 1v-1.5L14 19v-5.5l7 2.5Z"/></svg>
+                </div>
+                <h3>Vuelos On-Demand</h3>
+                <p>Alquiler de aeronaves privadas con total flexibilidad de itinerarios, listos para despegar bajo sus requerimientos específicos de viaje.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <h3>Seguridad Operacional</h3>
+                <p>Tripulaciones certificadas de alto nivel sujetas a estrictas auditorías y capacitación constante de seguridad internacional.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <h3>Logística Corporativa</h3>
+                <p>Atención continua y coordinación perimetral rápida en aeropuertos, reduciendo los tiempos de documentación a minutos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <div class="experience-container">
+            <div class="experience-img-box">
+                <img src="img/sobrecargo.jpg" alt="Servicio a bordo DelJets" class="experience-img">
+            </div>
+            <div class="experience-content">
+                <span class="section-tag">Exclusividad</span>
+                <h3>Atención y Confort de Clase Mundial</h3>
+                <p>Cada uno de nuestros itinerarios cuenta con el servicio dedicado de una sobrecargo ejecutiva altamente calificada. Nos aseguramos de brindar una experiencia gastronómica personalizada y un entorno de absoluta privacidad y confort en cabina.</p>
+                <p style="font-weight: 600; color: var(--accent);">Su viaje, gestionado con la máxima atención al detalle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="flota">
+        <div class="section-header">
+            <span class="section-tag">Aeronaves</span>
+            <h2 class="section-title">Explore Nuestra Flota</h2>
+        </div>
+        <div class="fleet-grid">
+            
+            <a href="#detalles-tecnicos" onclick="openPanel('g3')" class="fleet-anchor">
+                <div class="fleet-card" data-aircraft="GulfStream3" onmouseenter="startImageRotation(this)" onmouseleave="stopImageRotation(this)">
+                    <div class="fleet-img-container">
+                        <div class="loader-container">
+                            <svg class="loader-svg" viewBox="0 0 36 36">
+                                <circle class="loader-circle-bg" cx="18" cy="18" r="12"/>
+                                <circle class="loader-circle-progress" cx="18" cy="18" r="12"/>
+                            </svg>
+                        </div>
+                        <img src="img/GulfStream3.JPG" alt="Gulfstream III" class="fleet-img">
+                    </div>
+                    <div class="fleet-info">
+                        <div>
+                            <div class="fleet-class">Heavy Jet • Gran Fuselaje Internacional</div>
+                            <h3 class="fleet-name">Gulfstream III</h3>
+                        </div>
+                        <div class="fleet-specs">
+                            <div class="spec-item"><div class="spec-label">Capacidad</div><div class="spec-val">12-14 Pasajeros</div></div>
+                            <div class="spec-item"><div class="spec-label">Autonomía</div><div class="spec-val">7:00 Hrs</div></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#detalles-tecnicos" onclick="openPanel('g4')" class="fleet-anchor">
+                <div class="fleet-card" data-aircraft="G4" onmouseenter="startImageRotation(this)" onmouseleave="stopImageRotation(this)">
+                    <div class="fleet-img-container">
+                        <div class="loader-container">
+                            <svg class="loader-svg" viewBox="0 0 36 36">
+                                <circle class="loader-circle-bg" cx="18" cy="18" r="12"/>
+                                <circle class="loader-circle-progress" cx="18" cy="18" r="12"/>
+                            </svg>
+                        </div>
+                        <img src="img/G4.JPG" alt="Gulfstream IV" class="fleet-img">
+                    </div>
+                    <div class="fleet-info">
+                        <div>
+                            <div class="fleet-class">Heavy Jet • Máximo Alcance</div>
+                            <h3 class="fleet-name">Gulfstream G4</h3>
+                        </div>
+                        <div class="fleet-specs">
+                            <div class="spec-item"><div class="spec-label">Capacidad</div><div class="spec-val">14 Pasajeros</div></div>
+                            <div class="spec-item"><div class="spec-label">Autonomía</div><div class="spec-val">8:45 Hrs</div></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#detalles-tecnicos" onclick="openPanel('hawker')" class="fleet-anchor">
+                <div class="fleet-card" data-aircraft="Hawker77" data-ext="png" onmouseenter="startImageRotation(this)" onmouseleave="stopImageRotation(this)">
+                    <div class="fleet-img-container">
+                        <div class="loader-container">
+                            <svg class="loader-svg" viewBox="0 0 36 36">
+                                <circle class="loader-circle-bg" cx="18" cy="18" r="12"/>
+                                <circle class="loader-circle-progress" cx="18" cy="18" r="12"/>
+                            </svg>
+                        </div>
+                        <img src="img/Hawker77.png" alt="Hawker 77" class="fleet-img">
+                    </div>
+                    <div class="fleet-info">
+                        <div>
+                            <div class="fleet-class">Midsize Jet • Confort Regional</div>
+                            <h3 class="fleet-name">Hawker 77</h3>
+                        </div>
+                        <div class="fleet-specs">
+                            <div class="spec-item"><div class="spec-label">Capacidad</div><div class="spec-val">8 Pasajeros</div></div>
+                            <div class="spec-item"><div class="spec-label">Autonomía</div><div class="spec-val">5:30 Hrs</div></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#detalles-tecnicos" onclick="openPanel('learjet')" class="fleet-anchor">
+                <div class="fleet-card" data-aircraft="LearJet" onmouseenter="startImageRotation(this)" onmouseleave="stopImageRotation(this)">
+                    <div class="fleet-img-container">
+                        <div class="loader-container">
+                            <svg class="loader-svg" viewBox="0 0 36 36">
+                                <circle class="loader-circle-bg" cx="18" cy="18" r="12"/>
+                                <circle class="loader-circle-progress" cx="18" cy="18" r="12"/>
+                            </svg>
+                        </div>
+                        <img src="img/LearJet.JPG" alt="LearJet 55" class="fleet-img">
+                    </div>
+                    <div class="fleet-info">
+                        <div>
+                            <div class="fleet-class">Medium Jet • Rápido Ascenso</div>
+                            <h3 class="fleet-name">LearJet 55</h3>
+                        </div>
+                        <div class="fleet-specs">
+                            <div class="spec-item"><div class="spec-label">Capacidad</div><div class="spec-val">10 Pasajeros</div></div>
+                            <div class="spec-item"><div class="spec-label">Autonomía</div><div class="spec-val">4:30 Hrs</div></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#detalles-tecnicos" onclick="openPanel('citation')" class="fleet-anchor">
+                <div class="fleet-card" data-aircraft="Citation500" onmouseenter="startImageRotation(this)" onmouseleave="stopImageRotation(this)">
+                    <div class="fleet-img-container">
+                        <div class="loader-container">
+                            <svg class="loader-svg" viewBox="0 0 36 36">
+                                <circle class="loader-circle-bg" cx="18" cy="18" r="12"/>
+                                <circle class="loader-circle-progress" cx="18" cy="18" r="12"/>
+                            </svg>
+                        </div>
+                        <img src="img/Citation500.JPG" alt="Citation 500" class="fleet-img">
+                    </div>
+                    <div class="fleet-info">
+                        <div>
+                            <div class="fleet-class">Light Jet • Práctico y Dinámico</div>
+                            <h3 class="fleet-name">Citation 500</h3>
+                        </div>
+                        <div class="fleet-specs">
+                            <div class="spec-item"><div class="spec-label">Capacidad</div><div class="spec-val">5-8 Pasajeros</div></div>
+                            <div class="spec-item"><div class="spec-label">Autonomía</div><div class="spec-val">3:00 Hrs</div></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="detalles-tecnicos">
+        <div class="section-header">
+            <span class="section-tag">Análisis Operativo</span>
+            <h2 class="section-title">Especificaciones Técnicas Explicadas</h2>
+        </div>
+
+        <div class="tech-tabs-nav">
+            <button class="tab-btn active" onclick="openPanel('g3')">Gulfstream III</button>
+            <button class="tab-btn" onclick="openPanel('g4')">Gulfstream G4</button>
+            <button class="tab-btn" onclick="openPanel('hawker')">Hawker 77</button>
+            <button class="tab-btn" onclick="openPanel('learjet')">LearJet 55</button>
+            <button class="tab-btn" onclick="openPanel('citation')">Citation 500</button>
+        </div>
+
+        <div id="panel-g3" class="tech-aircraft-panel active">
+            <div class="tech-blocks-container">
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Espacio y Confort Interior</h4>
+                        <ul class="tech-list-premium">
+                            <li>Fuselaje ancho ideal para juntas ejecutivas en vuelos internacionales.</li>
+                            <li>Aislamiento acústico de primera para un viaje totalmente silencioso.</li>
+                            <li>Cocina premium completa (Galley) para servicio de alimentos a bordo.</li>
+                        </ul>
+                    </div>
+                    <table class="tech-table">
+                        <tr><td>Volumen de Cabina<span class="tech-explain-tag">Espacio total libre en el área de pasajeros</span></td><td>42.53 m³</td></tr>
+                        <tr><td>Altura Interior<span class="tech-explain-tag">Permite caminar perfectamente de pie</span></td><td>1.85 m</td></tr>
+                        <tr><td>Ancho Interior<span class="tech-explain-tag">Espacio lateral amplio entre asientos</span></td><td>2.22 m</td></tr>
+                        <tr><td>Longitud de Cabina<span class="tech-explain-tag">Largo total del área de sillones ejecutivos</span></td><td>12.58 m</td></tr>
+                    </table>
+                </div>
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Rendimiento y Capacidades</h4>
+                        <table class="tech-table">
+                            <tr><td>Velocidad de Crucero<span class="tech-explain-tag">Su velocidad normal constante en el aire</span></td><td>850 km/h (459 kts)</td></tr>
+                            <tr><td>Autonomía Máxima<span class="tech-explain-tag">Tiempo máximo de vuelo sin hacer escalas</span></td><td>7:00 Horas</td></tr>
+                            <tr><td>Techo de Servicio<span class="tech-explain-tag">Altitud de vuelo para rebasar tormentas y turbulencias</span></td><td>13,716 m (45,000 ft)</td></tr>
+                        </table>
+                    </div>
+                    <table class="tech-table" style="border-top: 1px dashed #E2E8F0; margin-top: 15px; padding-top: 15px;">
+                        <tr><td>Peso Máx. Despegue<span class="tech-explain-tag">Límite de peso total permitido para alzar el vuelo</span></td><td>31,615 kg</td></tr>
+                        <tr><td>Capacidad Combustible<span class="tech-explain-tag">Peso total de combustible para misiones largas</span></td><td>12,836 kg</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="panel-g4" class="tech-aircraft-panel">
+            <div class="tech-blocks-container">
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Espacio y Confort Interior</h4>
+                        <ul class="tech-list-premium">
+                            <li>Estándar global VIP para misiones de largo alcance y transoceánicas.</li>
+                            <li>Estructura premium que permite llevar cómodamente hasta 14 pasajeros.</li>
+                            <li>Compartimento de equipaje seguro y accesible directamente desde la cabina.</li>
+                        </ul>
+                    </div>
+                    <table class="tech-table">
+                        <tr><td>Volumen de Cabina<span class="tech-explain-tag">Espacio total transitable a bordo</span></td><td>46.72 m³</td></tr>
+                        <tr><td>Altura Interior<span class="tech-explain-tag">Excelente espacio para caminar cómodamente</span></td><td>1.88 m</td></tr>
+                        <tr><td>Longitud de Cabina<span class="tech-explain-tag">Fuselaje extendido para mayor confort</span></td><td>13.74 m</td></tr>
+                    </table>
+                </div>
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Rendimiento y Capacidades</h4>
+                        <table class="tech-table">
+                            <tr><td>Velocidad de Crucero<span class="tech-explain-tag">Velocidad óptima estable de traslado rápido</span></td><td>880 km/h (476 kts)</td></tr>
+                            <tr><td>Autonomía Máxima<span class="tech-explain-tag">Ideal para vuelos directos continentales</span></td><td>8:45 Horas</td></tr>
+                            <tr><td>Techo de Servicio<span class="tech-explain-tag">Altitud ejecutiva para un viaje suave</span></td><td>13,716 m (45,000 ft)</td></tr>
+                        </table>
+                    </div>
+                    <table class="tech-table" style="border-top: 1px dashed #E2E8F0; margin-top: 15px; padding-top: 15px;">
+                        <tr><td>Peso Máx. Despegue<span class="tech-explain-tag">Garantiza excelente capacidad para maletas pesadas</span></td><td>33,203 kg</td></tr>
+                        <tr><td>Capacidad Combustible<span class="tech-explain-tag">Tanques de gran almacenamiento transatlántico</span></td><td>13,381 kg</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="panel-hawker" class="tech-aircraft-panel">
+            <div class="tech-blocks-container">
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Espacio y Confort Interior</h4>
+                        <ul class="tech-list-premium">
+                            <li>Jet mediano ideal para vuelos de negocios eficientes entre estados.</li>
+                            <li>Configuración de asientos estilo club que facilita la conversación.</li>
+                            <li>Excelente relación de comodidad lateral para grupos de 8 personas.</li>
+                        </ul>
+                    </div>
+                    <table class="tech-table">
+                        <tr><td>Configuración Habitual<span class="tech-explain-tag">Distribución óptima de sillones en cabina</span></td><td>8 Asientos Ejecutivos</td></tr>
+                        <tr><td>Altura Interior<span class="tech-explain-tag">Espacio de techo óptimo y funcional</span></td><td>1.75 m</td></tr>
+                        <tr><td>Longitud de Cabina<span class="tech-section">Longitud neta de la zona de pasajeros</span></td><td>6.49 m</td></tr>
+                    </table>
+                </div>
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Rendimiento e Ingeniería</h4>
+                        <table class="tech-table">
+                            <tr><td>Velocidad de Crucero</td><td>818 km/h (442 kts)</td></tr>
+                            <tr><td>Autonomía Máxima</td><td>5:30 Horas</td></tr>
+                            <tr><td>Motores</td><td>2 × Honeywell TFE731</td></tr>
+                            <tr><td>Techo de Servicio</td><td>12,500 m (41,000 pies)</td></tr>
+                        </table>
+                    </div>
+                    <table class="tech-table" style="border-top: 1px dashed #E2E8F0; margin-top: 15px; padding-top: 15px;">
+                        <tr><td>Peso Máx. Despegue<span class="tech-explain-tag">Capacidad balanceada de carga y combustible</span></td><td>12,701 kg</td></tr>
+                        <tr><td>Capacidad Combustible<span class="tech-theme">Rendimiento óptimo de medio rango</span></td><td>4,536 kg</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="panel-learjet" class="tech-aircraft-panel">
+            <div class="tech-blocks-container">
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Espacio y Confort Interior</h4>
+                        <ul class="tech-list-premium">
+                            <li>Famoso por su cabina vertical 'Stand-Up' que facilita el pasillo libre.</li>
+                            <li>Estructura aerodinámica ágil construida para un traslado veloz.</li>
+                            <li>Excelente aislamiento para trayectos ejecutivos de hasta 10 pasajeros.</li>
+                        </ul>
+                    </div>
+                    <table class="tech-table">
+                        <tr><td>Volumen de Cabina<span class="tech-explain-tag">Espacio interior bien distribuido</span></td><td>11.52 m³</td></tr>
+                        <tr><td>Altura Interior<span class="tech-explain-tag">Diseño ergonómico y cómodo de pasillo</span></td><td>1.74 m</td></tr>
+                        <tr><td>Longitud de Cabina<span class="tech-explain-tag">Área compacta y eficiente para viajes de rango medio</span></td><td>5.09 m</td></tr>
+                    </table>
+                </div>
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Rendimiento e Ingeniería</h4>
+                        <table class="tech-table">
+                            <tr><td>Velocidad de Crucero<span class="tech-explain-tag">Excelente velocidad de traslado constante</span></td><td>855 km/h (462 kts)</td></tr>
+                            <tr><td>Autonomía Máxima<span class="tech-explain-tag">Tiempo de vuelo ideal para rutas nacionales directas</span></td><td>4:30 Horas</td></tr>
+                            <tr><td>Techo de Servicio<span class="tech-explain-tag">Altitud súper elevada para evadir tormentas fácilmente</span></td><td>15,545 m (51,000 ft)</td></tr>
+                        </table>
+                    </div>
+                    <table class="tech-table" style="border-top: 1px dashed #E2E8F0; margin-top: 15px; padding-top: 15px;">
+                        <tr><td>Peso Máx. Despegue<span class="tech-explain-tag">Límite estructural ligero y dinámico</span></td><td>9,752 kg</td></tr>
+                        <tr><td>Capacidad Combustible<span class="tech-explain-tag">Tanques ligeros de carga ultra rápida</span></td><td>3,344 kg</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="panel-citation" class="tech-aircraft-panel">
+            <div class="tech-blocks-container">
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Espacio y Confort Interior</h4>
+                        <ul class="tech-list-premium">
+                            <li>El jet ligero por excelencia, sumamente práctico y seguro.</li>
+                            <li>Diseño de ala recta que ofrece el viaje más estable y suave del sector.</li>
+                            <li>Capacidad para aterrizar en aeropuertos locales de pistas muy cortas.</li>
+                        </ul>
+                    </div>
+                    <table class="tech-table">
+                        <tr><td>Volumen de Cabina<span class="tech-explain-tag">Espacio acogedor óptimo para equipos pequeños</span></td><td>5.80 m³</td></tr>
+                        <tr><td>Altura Interior<span class="tech-explain-tag">Cabina compacta de baja resistencia al aire</span></td><td>1.32 m</td></tr>
+                        <tr><td>Longitud de Cabina<span class="tech-explain-tag">Estructura corta ideal para vuelos ejecutivos rápidos</span></td><td>3.58 m</td></tr>
+                    </table>
+                </div>
+                <div class="tech-section-block">
+                    <div>
+                        <h4>Rendimiento e Ingeniería</h4>
+                        <table class="tech-table">
+                            <tr><td>Velocidad de Crucero<span class="tech-explain-tag">Velocidad constante segura y económica</span></td><td>640 km/h (345 kts)</td></tr>
+                            <tr><td>Autonomía Máxima<span class="tech-explain-tag">Tiempo de vuelo ideal para traslados cortos de ciudad a ciudad</span></td><td>3:00 Horas</td></tr>
+                            <tr><td>Techo de Servicio<span class="tech-explain-tag">Altitud estándar de aviación ejecutiva estable</span></td><td>10,668 m (35,000 ft)</td></tr>
+                        </table>
+                    </div>
+                    <table class="tech-table" style="border-top: 1px dashed #E2E8F0; margin-top: 15px; padding-top: 15px;">
+                        <tr><td>Peso Máx. Despegue<span class="tech-explain-tag">Estructura ultraligera de alta maniobrabilidad</span></td><td>5,216 kg</td></tr>
+                        <tr><td>Capacidad Combustible<span class="tech-explain-tag">Consumo de combustible altamente eficiente</span></td><td>1,651 kg</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="faq">
+        <div class="section-header">
+            <span class="section-tag">Respuestas</span>
+            <h2 class="section-title">Preguntas Frecuentes antes de Despegar</h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">¿Cómo funciona el proceso de reservación? <span>+</span></div>
+                <div class="faq-answer"><p style="padding: 20px 0;">Es sumamente ágil. Solo requerimos su ruta, fecha tentativa y número de pasajeros. Al contactar a cualquiera de nuestros asesores técnicos vía telefónica o WhatsApp, se valida la disponibilidad de la aeronave y se procesa su itinerario operativo inmediato.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">¿Con qué anticipación mínima debo solicitar un vuelo? <span>+</span></div>
+                <div class="faq-answer"><p style="padding: 20px 0;">Para garantizar la correcta gestión de la logística terrestre, los planes de vuelo y los permisos aeronáuticos correspondientes, requerimos un tiempo mínimo de 3 horas antes de la reservación programada.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="contact-wrapper">
+            <img src="img/logo.png" alt="DelJets" class="main-contact-logo">
+            <span class="section-tag" style="display:block; margin-top:10px;">Contacto Oficial</span>
+            <h2 class="section-title" style="margin-bottom: 15px;">Canales de Atención Directa</h2>
+            <p style="color: var(--text-muted); font-size: 14px;">Utilice cualquiera de nuestras líneas ejecutivas para validar cotizaciones, rutas aéreas abiertas y requerimientos de tripulaciones dedicadas.</p>
+            
+            <div class="contact-list">
+                <div class="contact-row">
+                    <a href="tel:+5217297131193" class="phone-link">+52 1 729 713 1193</a>
+                    <div class="action-group">
+                        <a href="tel:+5217297131193" class="btn-act btn-c" title="Llamar"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+                        <a href="https://wa.me/5217297131193?text=Hola,%20solicito%20información%20sobre%20la%20renta%20de%20un%20jet%20privado" target="_blank" class="btn-act btn-w" title="WhatsApp"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <a href="tel:+525566258101" class="phone-link">+52 55 6625 8101</a>
+                    <div class="action-group">
+                        <a href="tel:+525566258101" class="btn-act btn-c" title="Llamar"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+                        <a href="https://wa.me/525566258101?text=Hola,%20solicito%20información%20sobre%20la%20renta%20de%20un%20jet%20privado" target="_blank" class="btn-act btn-w" title="WhatsApp"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <a href="tel:+525640028680" class="phone-link">+52 56 4002 8680</a>
+                    <div class="action-group">
+                        <a href="tel:+525640028680" class="btn-act btn-c" title="Llamar"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+                        <a href="https://wa.me/525640028680?text=Hola,%20solicito%20información%20sobre%20la%20renta%20de%20un%20jet%20privado" target="_blank" class="btn-act btn-w" title="WhatsApp"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 DELJETS PRIVATE JET CHARTER. ELEVATE YOUR JOURNEY.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
