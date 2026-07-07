@@ -3,7 +3,7 @@ const activeIntervals = {};
         function startImageRotation(cardElement) {
             const imgElement = cardElement.querySelector('.fleet-img');
             const baseName = cardElement.getAttribute('data-aircraft');
-            const customExt = cardElement.getAttribute('data-ext') || 'JPG';
+            const customExt = cardElement.getAttribute('data-ext') || 'jpg';
             
             let currentIndex = 1;
             
@@ -25,7 +25,7 @@ const activeIntervals = {};
                     if (currentIndex === 1) {
                         imgElement.src = 'img/' + baseName + '.' + customExt;
                     } else {
-                        imgElement.src = 'img/' + baseName + '_' + currentIndex + '.JPG';
+                        imgElement.src = 'img/' + baseName + '_' + currentIndex + '.jpg';
                     }
                     imgElement.style.opacity = '1';
                 }, 150);
@@ -42,7 +42,7 @@ const activeIntervals = {};
         function stopImageRotation(cardElement) {
             const imgElement = cardElement.querySelector('.fleet-img');
             const baseName = cardElement.getAttribute('data-aircraft');
-            const customExt = cardElement.getAttribute('data-ext') || 'JPG';
+            const customExt = cardElement.getAttribute('data-ext') || 'jpg';
             
             clearInterval(activeIntervals[baseName]);
             delete activeIntervals[baseName];
